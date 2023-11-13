@@ -1,0 +1,52 @@
+div {
+    border: 10px solid darkcyan;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #red {
+    background-color: red;
+    transition: all 3s;
+  }
+  
+  #red:hover{
+    width: 300px;
+  }
+  #green {
+    background-color: green;
+    transition:Wlinear 1s;
+
+  }
+  #green:hover{
+    transform: rotate(360deg);
+    background-color: yellow;
+
+  }
+ 
+
+  #blue {
+    animation: expand 8s;
+    background-color: blue;
+    
+  }
+  
+  @keyframes expand {
+    50% {
+      width: 450px;
+    }
+    
+  }
+  #orange {
+    background-color: orange;
+  }
+  
+  #purple {
+    background-color: purple;
+  }
+  
+  #brown {
+    background-color: brown;
+  }
+  
+  /* START BELOW THIS LINE */
